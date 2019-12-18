@@ -10,7 +10,7 @@ def return_instances(project):
 
     if project:
        print(project + ' instances')
-       filters =  [{'Name':'tag:Projet', 'Values':[project]}]
+       filters = [{'Name':'tag:Projet', 'Values':[project]}]
        instances = ec2.instances.filter(Filters=filters)
     else:
         print('All instances !')
@@ -30,7 +30,7 @@ def list_instances(project):
 
     instances = return_instances(project)
 
-    for i in ec2.instances.all():
+    for i in instances:
         tags = { t['Key']: t['Value'] for t in i.tags or []}
         print(','.join((
             i.id,
@@ -38,7 +38,8 @@ def list_instances(project):
             i.placement['AvailabilityZone'],
             i.state['Name'],
             i.public_dns_name,
-            tags.get('Project', '<no project>'))))
+            tags.get('Project', '<no project>')
+            )))
     return
 
 @instances.command('stop')

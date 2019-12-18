@@ -1,0 +1,500 @@
+   11  pipenv shell
+   12  python --version
+   13  echo $PATH
+   14  export=$PATH:/usr/bin/python3.8
+   15  python --version
+   16  pipenv run python -V
+   17  ls
+   18  pipenv run igpay.py
+   19  pipenv shell
+   20  pipenv run python --version
+   21  pipenv run igapy.py
+   22  pipenv run python igapy.py
+   23  pipenv run python igpay.py
+   24  vi igpay.py
+   25  pipenv run python igpay.py
+   26  vi igpay.py
+   27  pipenv run python igpay.py
+   28  pipenv run python install requests
+   29  pipenv install requests
+   30  ls
+   31  cd ..
+   32  ls
+   33  cat README.md 
+   34  cd ..
+   35  ls
+   36  cd ..
+   37  ls
+   38  cd ..
+   39  ls
+   40  pwd
+   41  cd guru/
+   42  ls
+   43  cd code/
+   44  ls
+   45  cd automating-aws-with-python/
+   46  ls
+   47  cd python-for-beginners/
+   48  ls
+   49  ls -la
+   50  cd ..
+   51  ls -la
+   52  cat .gitignore 
+   53  cd python-for-beginners/
+   54  ls
+   55  git status
+   56  ls -la
+   57  cd ..
+   58  ls -la
+   59  vi .gitignore 
+   60  git status
+   61  pipenv install -d ipython
+   62  ls
+   63  ls
+   64  cd ..
+   65  mkdir snapshotalyzer
+   66  cd sh
+   67  cd snapshotalyzer/
+   68  ls
+   69  git clone 
+   70  git clone git@github.com:mpatmon/snapshotalyzer.git
+   71  ls
+   72  cd snapshotalyzer/
+   73  ls
+   74  cd ..
+   75  cd ..
+   76  mv snapshotalyzer/snapshotalyzer/ .
+   77  mv -r snapshotalyzer/snapshotalyzer/ .
+   78  mv help
+   79  mv --help
+   80  man mv
+   81  mv -r snapshotalyzer/snapshotalyzer/* .
+   82  mv /snapshotalyzer/snapshotalyzer/ .
+   83  mv /snapshotalyzer/snapshotalyzer/* .
+   84  #mv /snapshotalyzer/snapshotalyzer/*  
+   85  cd snapshotalyzer/
+   86  ls
+   87  mv snapshotalyzer/* .
+   88  ls
+   89  ls
+   90  rm snapshotalyzer
+   91  rm -r snapshotalyzer
+   92  sudo rm -r snapshotalyzer
+   93  ls
+   94  aws configure
+   95  aws configure --profile shotty
+   96  pwd
+   97  pip3 install pipenv
+   98  pipenv --three
+   99  pipenv install boto3
+  100  pipenv install -d ipython
+  101  pipenv run ipython
+  102  mkdir shotty
+  103  vi shotty.py
+  104  pipenv run shotty.py
+  105  pipenv run "python shotty/shotty.py"
+  106  ls
+  107  ls
+  108  pipenv run "python shotty.py"
+  109  pipenv run python shotty.py
+  110  ls
+  111  mv shotty.py /shotty
+  112  sudo mv shotty.py /shotty
+  113  ls
+  114  cd shotty/
+  115  ls
+  116  ls
+  117  ls
+  118  ls -la
+  119  cd ..
+  120  ls
+  121  cd shotty/
+  122  vi shotty.py
+  123  pipenv run shotty.py
+  124  %history
+  125  history
+  126  pipenv install boto3
+  127  pipenv install -d ipython
+  128  pipenv run shotty.py 
+  129  ls
+  130  pipenv run python shotty.py 
+  131  vi shotty.py 
+  132  pipenv run python shotty.py 
+  133  vi shotty.py 
+  134  pipenv run python shotty.py 
+  135  ld
+  136  ls
+  137  cd ..
+  138  ls
+  139  vi README.md 
+  140  git status
+  141  ls
+  142  git clone git@github.com:mpatmon/snapshotalyzer.git
+  143  ls
+  144  ls -la
+  145  git status
+  146  sudo apt-get install git
+  147  cd ..
+  148  git status
+  149  ls
+  150  cd automating-aws-with-python/
+  151  ls
+  152  ls -la
+  153  git status
+  154  cd ..
+  155  ls
+  156  cd snapshotalyzer/
+  157  ls
+  158  git add
+  159  git init
+  160  ls
+  161  git status
+  162  ls -la
+  163  git add Pipfile README.md shotty/ snapshotalyzer/
+  164  git status
+  165  git commit -am "First commit will all beginnings"
+  166  ls
+  167  ls -la
+  168  cd ..
+  169  ls
+  170  cd sh
+  171  cd snapshotalyzer/
+  172  ls
+  173  git push
+  174  git remote add NewRepoAWS git@github.com:mpatmon/snapshotalyzer.git
+  175  git push
+  176  git push NewRepoAWS
+  177  git clone git@github.com:mpatmon/snapshotalyzer.git
+  178  ls
+  179  git push
+  180  ls
+  181  ls -la
+  182  git init
+  183  git push
+  184  git clone 
+  185  git clone git@github.com:mpatmon/snapshotalyzer.git
+  186  git status
+  187  ls -la
+  188  where .gitignore
+  189  locate .gitignore
+  190  cat .git
+  191  cd .git
+  192  ls
+  193  cd ..
+  194  ls
+  195  touch testfile
+  196  git status
+  197  git add testfile 
+  198  git status
+  199  git push
+  200  git remote add origin git@github.com:mpatmon/snapshotalyzer.git
+  201  git push
+  202  git push --set-upstream origin master
+  203  git clone git@github.com:mpatmon/snapshotalyzer.git
+  204  git pull
+  205  git pull remote git@github.com:mpatmon/snapshotalyzer.git
+  206  git pull snapshotalyzer git@github.com:mpatmon/snapshotalyzer.git
+  207  git pull snapshotalyzer git@github.com:mpatmon/snapshotalyzer.git
+  208  git pull NewReporAWS git@github.com:mpatmon/snapshotalyzer.git
+  209  git status
+  210  git pull
+  211  git pull git@github.com:mpatmon/snapshotalyzer.gitremote 
+  212  git pull git@github.com:mpatmon/snapshotalyzer.git
+  213  git push
+  214  git push --sert-upstream origin master
+  215  git push --set-upstream origin master
+  216  ls
+  217  rm -r
+  218  rm *
+  219  rm *.*
+  220  ls | rm
+  221  ls
+  222  git clone git@github.com:mpatmon/AWS.git
+  223  ls
+  224  ls -la
+  225  touch testfile
+  226  git status
+  227  git init
+  228  ls
+  229  git status
+  230  ls
+  231  ls -la
+  232  cd snapshotalyzer/
+  233  ls
+  234  cd ..
+  235  ls
+  236  git status
+  237  git clone git@github.com:mpatmon/AWS.git 
+  238  ls -la
+  239  cd AWS/
+  240  ls
+  241  ls -la
+  242  touch testfile
+  243  git status
+  244  git add testfile 
+  245  git commit -m "test push"
+  246  git push
+  247  ls
+  248  cd ..
+  249  ls
+  250  cd shotty
+  251  ls
+  252  pipenv run python shotty.py 
+  253  cd ../AWS
+  254  ls
+  255  pipenv run python --version
+  256  cd ..
+  257  ls
+  258  mv shotty /AWS
+  259  sudo mv shotty /AWS
+  260  ls
+  261  cd AWS/
+  262  ls
+  263  ls -la
+  264  cd ..
+  265  ls -la
+  266  cd ..
+  267  ls
+  268  cd snapshotalyzer/
+  269  ls
+  270  cd snapshotalyzer/
+  271  ls
+  272  cd ..
+  273  cd AWS/
+  274  ls
+  275  vi shotty.py
+  276  pipenv run python shotty.py 
+  277  vi shotty.py 
+  278  pipenv run python shotty.py 
+  279  vi shotty.py 
+  280  pipenv run python shotty.py 
+  281  vi shotty.py 
+  282  pipenv run python shotty.py 
+  283  pipenv install boto3
+  284  pipenv run python --version
+  285  pipenv run python shotty.py 
+  286  ls
+  287  vi README.md 
+  288  git status
+  289  ls -la
+  290  cd ..
+  291  ls
+  292  ls -la
+  293  cd AWS/
+  294  ls
+  295  ls -la
+  296  touch .gitignore
+  297  git status
+  298  vi .gitignore 
+  299  vi .gitignore 
+  300  git status
+  301  git add README.md Pipfile shotty.py 
+  302  git commit -m 'shotty config'
+  303  git push
+  304  exit
+  305  exit
+  306  ifconfig
+  307  init 0
+  308  ls
+  309  cd code/
+  310  ls
+  311  cd sh
+  312  cd snapshotalyzer/
+  313  ls
+  314  cd AWS/
+  315  ls
+  316  git status
+  317  pipenv run ipython
+  318  pipenv run python ipython
+  319  pipenv run python shotty.py
+  320  vi shotty.py 
+  321  pipenv run python shotty.py
+  322  vi shotty.py 
+  323  pipenv run python shotty.py
+  324  vi shotty.py 
+  325  pipenv run python shotty.list_instances
+  326  pipenv run python shotty.py
+  327  vi shotty.py 
+  328  pipenv run python shotty.py
+  329  vi shotty.py 
+  330  pipenv run python shotty list_instances
+  331  vi shotty.py 
+  332  pipenv run python "shotty.py instances stop --project=valkyrie"
+  333  pipenv run python shotty.py instances stop --project=valkyrie
+  334  vi shotty.py 
+  335  pipenv run python shotty.py 
+  336  vi shotty.py 
+  337  pipenv install click
+  338  vi shotty.py 
+  339  pipenv run python shotty.py 
+  340  pipenv run python shotty.py --help
+  341  vi shotty.py 
+  342  pipenv run python shotty.py --help
+  343  vi shotty.py 
+  344  pipenv run python shotty.py 
+  345  git status
+  346  git diff
+  347  git status
+  348  git add Pipfile  shotty.py 
+  349  git commit -am 'Shotty w/ session and instance list 12132019'
+  350  git commit -am 'Shotty w/ session, instance list, and @click -  12132019'
+  351  gitpush
+  352  git push
+  353  git status
+  354  vi shotty.py 
+  355  pipenv run python shotty.py 
+  356  vi shotty.py 
+  357  vi shotty.py --project valkyrie
+  358  vi shotty.py --project "valkyrie"
+  359  vi shotty.py 
+  360  vi shotty.py --project "valkyrie"
+  361  pipenv run python shotty.py --project valkyrie"
+  362  pipenv run python "shotty.py --project valkyrie"
+  363  pipenv run python "shotty.py --project valkyrie
+  364  pipenv run python shotty.py --project valkyrie
+  365  pipenv run "python shotty.py --project valkyrie"
+  366  pipenv run "python shotty.py --project=valkyrie"
+  367  pipenv run "python shotty.py --project=Valkyrie"
+  368  vi shotty.py 
+  369  pipenv run python shotty.py --project=Valkyrie
+  370  vi shotty.py 
+  371  pipenv run python shotty.py --project=Valkyrie
+  372  pipenv run "python shotty.py --project=Valkyrie"
+  373  pipenv run python shotty.py 
+  374  pipenv run "python shotty.py --project=Valkyrie"
+  375  vi shotty.py 
+  376  pipenv run "python shotty.py --project=Valkyrie"
+  377  pipenv run python shotty.py 
+  378  vi shotty.py 
+  379  pipenv run python shotty.py 
+  380  pipenv run python shotty.py --project=Valkyrie
+  381  pipenv run "python shotty.py --project=Valkyrie"
+  382  vi shotty.py 
+  383* pipenv run python shotty.py --project=Judah[B
+  384  init 0
+  385  sudo init 0
+  386  ping google.com
+  387  ping google.com
+  388  ifconfig
+  389  ifconfig /ip4
+  390  ls /etc/networking
+  391  locate networking
+  392  clear
+  393  ifconfig /all
+  394  ifconfig
+  395  ls
+  396  cd code/
+  397  ls
+  398  cd automating-aws-with-python/
+  399  ls
+  400  cd python-for-beginners/
+  401  ls
+  402  cd ..
+  403  ls
+  404  cd ..
+  405  ls
+  406  cd automating-aws-with-python/
+  407  ls
+  408  cd python-for-beginners/
+  409  ls
+  410  pwd
+  411  git status
+  412  ls
+  413  cd \
+  414  ls
+  415  cd ..
+  416  lss
+  417  ls
+  418  find shotty
+  419  locate shotty
+  420  where shotty
+  421  which shotty
+  422  find / -name shotty
+  423  sudo find / -name shotty
+  424  ls /shotty
+  425  ls /shotty/shotty
+  426  cd /shotty
+  427  ls
+  428  ls
+  429  cd ..
+  430  ls
+  431  cd sho
+  432  ls -la
+  433  find / -name /shotty
+  434  sudo find / -name /shotty
+  435  sudo find / -name /shotty.py
+  436  sudo find / -name /AWS/shotty.py
+  437  sudo find / -name /AWS/
+  438  sudo find / -name AWS/
+  439  ls -la /AWS
+  440  cd /AWS
+  441  ls
+  442  git status
+  443  pwd
+  444  vi shotty.py
+  445  cd ..
+  446  ls
+  447  cd home
+  448  ls
+  449  cd guru/
+  450  ls
+  451  cd code/
+  452  ls
+  453  cd automating-aws-with-python/
+  454  ls
+  455  cd 01-weotron/
+  456  ls
+  457  cd ..
+  458  ls
+  459  cd python-for-beginners/
+  460  ls
+  461  git status
+  462  find AWS
+  463  find /AWS
+  464  ls -la /AWS
+  465  /AWS/pipenv run python shotty.py
+  466  where /AWS
+  467  find /AWS
+  468  cd ?AWS
+  469  cd /AWS
+  470  ls
+  471  git status
+  472  cd ..
+  473  sl
+  474  ls
+  475  cd home
+  476  ls
+  477  cd guru
+  478  ls
+  479  cd code/
+  480  ls
+  481  cd automating-aws-with-python/
+  482  ls
+  483  cd python-for-beginners/
+  484  ls
+  485  python igpay.py
+  486  cd .
+  487  cd ..
+  488  cd ..
+  489  ls
+  490  mkdir AWS
+  491  ls
+  492  cd AWS/
+  493  ls
+  494  ifconfig
+  495  init 0
+  496  cd code/
+  497  ls
+  498  cd AWS/
+  499  pipenv run ipython
+  500  ls
+  501  cd code/
+  502  ls
+  503  cd AWS/
+  504  ls
+  505  vi shotty.py 
+  506  vi +Set number shotty.py 
+  507  vi +"Set number" shotty.py 
+  508  %history
+  509  history
+  510  history > history.txt
