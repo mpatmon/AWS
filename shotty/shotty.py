@@ -1,4 +1,5 @@
 import boto3
+import botocore
 #import sys
 import click
 
@@ -18,6 +19,10 @@ def return_instances(project):
 
     return instances
 
+def snapshot_pending(volume):
+    snapshots - list(volume.snapshots.all())
+    return snapshots and snapshots[0].state == 'pending'
+
 @click.group()
 def cli():
     """Shotty manages vms"""
@@ -29,7 +34,9 @@ def snapshots():
 @snapshots.command('list')
 @click.option('--project', default=None,
         help="Only snapshotss for project (tag Project:<name>)")
-def list_snapshotss(project):
+@click.option('--all', 'list_all', default=False, is_flag=True,
+              help="List all snapshots for each volume, not just the most recent")
+def list_snapshotss(project, list_all):
     "List EC2 snapshots"
 
     instances = return_instances(project)
@@ -45,6 +52,7 @@ def list_snapshotss(project):
                         s.start_time.strftime("%c")
                         
                     )))
+                if s.state == 'completed' and not list_all: break
     return
 
 @cli.group('volumes')
@@ -108,6 +116,9 @@ for i in instances:
     i.stop()
     i.wait_until_stopped()
     for v in i.volumes.all():
+        if snapshot_pending(v):
+            print("Skipping. ...Snapshot is already pending")
+            continue
         print("Creating snapshot of {0}".format(v.id))
         v.create_snapshots(Description="Created by Melvin P. DXC")
     print("Starting {0}...".format(i.id))
@@ -128,7 +139,11 @@ def stop_instances(project):
 
     for i in instances:
         print("Stopping instances {0}...".format(i.id))
-        i.stop()
+        try:
+            i.stop()
+        except:
+            print("Failed to stop instance {0}".format(i.id) + str(e))
+            continue
 
     return      
 
@@ -142,7 +157,12 @@ def start_instances(project):
 
     for i in instances:
         print("Starting instances {0}...".format(i.id))
-        i.start()
+        
+        try:
+            i.start()
+        except botocore.exceptions.ClientError as e:
+            print(" Failed to start instance {0}".format(i.id) + str(e))
+            continue
 
     return
 
@@ -156,7 +176,10 @@ def terminate_instances(project):
     
     for i in instances:
         print("Terminating instance {0} ".format(i.id) )
-        i.terminate()
+        try:
+            i.terminate()
+        except:
+            print("Failed to terminate instance.")
         
     return
 
